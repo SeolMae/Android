@@ -1,3 +1,3 @@
-# TeamSeolMae_for_HalAe_Android
+# HalAe_Android
 
 dd..?
