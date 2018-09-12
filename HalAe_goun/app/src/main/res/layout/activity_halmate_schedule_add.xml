@@ -3,22 +3,43 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    
-    <RelativeLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="삭제"
-            android:textSize="18dp"
-            android:textColor="#606060"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="25dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-    </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="취소"
+                android:textSize="18dp"
+                android:textColor="#606060"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="저장"
+                android:textSize="18dp"
+                android:textColor="#606060"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"
@@ -39,16 +60,18 @@
             android:layout_marginLeft="17dp"
             android:src="@drawable/halmate_schedule_person"/>
 
-        <TextView
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="양시연"
             android:textSize="16dp"
             android:textColor="#606060"
             android:textStyle="bold"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/volunteer_name_icon"
-            android:layout_marginLeft="17dp"/>
+            android:layout_marginLeft="17dp"
+            android:hint="이름"
+            android:background="@android:color/transparent"
+            android:textColorHint="#C2C2C2"/>
 
     </RelativeLayout>
 
@@ -93,11 +116,21 @@
                 android:layout_marginLeft="17dp"/>
 
             <TextView
+                android:id="@+id/volunteer_start_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/volunteer_start_text"
                 android:layout_marginLeft="25dp"
-                android:text="8월 23일 (목) 오전 08:00"
+                android:text="8월 23일 (목) "
+                android:textSize="16dp"
+                android:textColor="#606060"/>
+
+            //timePicker
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/volunteer_start_date"
+                android:text="오전 08:00"
                 android:textSize="16dp"
                 android:textColor="#606060"/>
 
@@ -129,11 +162,21 @@
                 android:layout_marginLeft="17dp"/>
 
             <TextView
+                android:id="@+id/volunteer_end_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/volunteer_end_text"
                 android:layout_marginLeft="25dp"
-                android:text="8월 23일 (목) 오전 08:00"
+                android:text="8월 23일 (목) "
+                android:textSize="16dp"
+                android:textColor="#606060"/>
+
+            //timePicker
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/volunteer_end_date"
+                android:text="오전 08:00"
                 android:textSize="16dp"
                 android:textColor="#606060"/>
 
@@ -164,15 +207,17 @@
             android:layout_marginLeft="17dp"
             android:src="@drawable/halmate_schedule_heart"/>
 
-        <TextView
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="#독서 #그림그리기"
             android:textSize="16dp"
             android:textColor="#606060"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/volunteer_heart_icon"
-            android:layout_marginLeft="17dp"/>
+            android:layout_marginLeft="17dp"
+            android:hint="활동 #태그"
+            android:background="@android:color/transparent"
+            android:textColorHint="#C2C2C2"/>
 
     </RelativeLayout>
 
@@ -198,16 +243,17 @@
             android:layout_marginLeft="17dp"
             android:src="@drawable/halmate_schedule_write"/>
 
-        <TextView
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="'누가 내 머리에 똥 쌌어?'라는 책을 읽고
-느낀점을 그림으로 그릴 거에요!"
             android:textSize="16dp"
             android:textColor="#606060"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/volunteer_plan_icon"
-            android:layout_marginLeft="17dp"/>
+            android:layout_marginLeft="17dp"
+            android:hint="자세히.."
+            android:textColorHint="#C2C2C2"
+            android:background="@android:color/transparent"/>
 
     </RelativeLayout>
 

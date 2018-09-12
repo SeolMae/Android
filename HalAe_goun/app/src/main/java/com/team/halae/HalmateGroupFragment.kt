@@ -9,6 +9,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import kotlinx.android.synthetic.main.fragment_halmate.*
+import kotlinx.android.synthetic.main.fragment_halmate_group.*
 
 class HalmateGroupFragment : Fragment() {
 
@@ -17,6 +19,13 @@ class HalmateGroupFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val v = inflater.inflate(R.layout.fragment_halmate_group,container,false)
+
+        return v
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
 
         groupItems = ArrayList()
         groupItems.add(GroupItem(R.drawable.sample, "최고운"))
@@ -29,10 +38,7 @@ class HalmateGroupFragment : Fragment() {
 
 
         groupAdapter = GroupAdapter(groupItems)
-        var recyclerView : RecyclerView = v.findViewById(R.id.halmate_group_list)
-        recyclerView.layoutManager = GridLayoutManager(this.context, 4)
-        recyclerView.adapter = groupAdapter
-
-        return v
+        halmate_group_list.layoutManager = GridLayoutManager(this.context, 4)
+        halmate_group_list.adapter = groupAdapter
     }
 }
