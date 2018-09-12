@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="5dp"
+        android:background="@android:color/white" >
+        
+        <RelativeLayout
+            android:layout_width="298dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/searching_view_background">
+            
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/search_search"
+                android:layout_centerVertical= "true"
+                android:layout_marginLeft="13dp"/>
+
+            <EditText
+                android:id="@+id/searching_edittext"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:textSize="14dp"
+                android:hint="검색"
+                android:background="@android:color/transparent"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/searching_cancle_button"
+            android:layout_width="26dp"
+            android:layout_height="20dp"
+            android:text="취소"
+            android:background="@android:color/transparent"
+            android:textSize="14dp"
+            android:textColor="#606060"
+            android:layout_marginLeft="323dp"
+            android:layout_marginTop="15dp"
+            />
+        
+
+        
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="59dp"
+        android:layout_height="22dp"
+        android:text="최근 검색"
+        android:textSize="13dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#5C5C5C"
+        />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_gravity="center"
+        android:id="@+id/halmate_searcch_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+    </android.support.v7.widget.RecyclerView>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#606060"/>
+
+        <Button
+            android:id="@+id/record_delete_button"
+            android:layout_width="72dp"
+            android:layout_height="18dp"
+            android:background="@android:color/transparent"
+            android:text="검색 기록 삭제"
+            android:textSize="12dp"
+            android:textColor="#5C5C5C"
+            android:layout_marginLeft="279dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="7dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        addFragment(HalmateActivity())
+       // addFragment(HalmateActivity())
+        addFragment2(HalmateSearchFragment())
     }
 
     fun addFragment(fragment: Fragment){
@@ -20,4 +21,15 @@ class MainActivity : AppCompatActivity(){
         transaction.add(R.id.main_frame, fragment)
         transaction.commit()
     }
+
+    fun addFragment2(fragment: Fragment){
+        val fm = supportFragmentManager
+        val transaction = fm.beginTransaction()
+        transaction.add(R.id.main_frame, fragment)
+        transaction.commit()
+    }
+
+
+
+
 }
