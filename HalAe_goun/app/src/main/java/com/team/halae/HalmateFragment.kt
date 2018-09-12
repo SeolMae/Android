@@ -1,50 +1,47 @@
 package com.team.halae
 
-import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import kotlinx.android.synthetic.main.fragment_halmate.*
 import kotlinx.android.synthetic.main.fragment_halmate.view.*
-import android.content.Context.LAYOUT_INFLATER_SERVICE
 
 
+class HalmateFragment : Fragment(), View.OnClickListener {
 
-class HalmateActivity : Fragment(), View.OnClickListener {
-
-
-//    var scheduleTab : ImageView = v.findViewById(R.id.halmate_schedule_tab)
-//    var pictureTab : ImageView = v.findViewById(R.id.halmate_picture_tab)
-//    var boardTab : ImageView = v.findViewById(R.id.halmate_board_tab)
-//    var groupTab : ImageView = v.findViewById(R.id.halmate_group_tab)
     override fun onClick(v: View?) {
         when(v!!){
             halmate_schedule_tab->{
-//                clearSelected()
-//                scheduleTab.isSelected = true
+                clearSelected()
+                halmate_schedule_tab.isSelected = true
                 replaceFragment(HalmateScheduleFragment())
             }
 
             halmate_picture_tab->{
-//                clearSelected()
-//                pictureTab.isSelected = true
+                clearSelected()
+                halmate_picture_tab.isSelected = true
                 replaceFragment(HalmatePictureFragment())
             }
 
             halmate_board_tab->{
-//                clearSelected()
-//                boardTab.isSelected = true
+                clearSelected()
+                halmate_board_tab.isSelected = true
                 replaceFragment(HalmateBoardFragment())
             }
 
             halmate_group_tab->{
-//                clearSelected()
-//                groupTab.isSelected = true
+                clearSelected()
+                halmate_group_tab.isSelected = true
                 replaceFragment(HalmateGroupFragment())
+                halmate_message_icon.visibility = View.VISIBLE
+            }
+
+            halmate_message_icon->{
+                startActivity(Intent(context, HalmateScheduleSelectActivity::class.java))
             }
         }
     }
@@ -60,8 +57,8 @@ class HalmateActivity : Fragment(), View.OnClickListener {
 
         addFragment(HalmateScheduleFragment())
 
-        var scheduleTab : ImageView = v.findViewById(R.id.halmate_schedule_tab)
-        scheduleTab.isSelected = true
+//        var scheduleTab : ImageView = v.findViewById(R.id.halmate_schedule_tab)
+//        halmate_schedule_tab.isSelected = true
 
         return v
     }
@@ -84,11 +81,18 @@ class HalmateActivity : Fragment(), View.OnClickListener {
         }
     }
 
-//    fun clearSelected(){
-//        scheduleTab.isSelected = false
-//        pictureTab.isSelected = false
-//        boardTab.isSelected = false
-//        groupTab.isSelected = false
-//    }
+    fun clearSelected(){
+        halmate_schedule_tab.isSelected = false
+        halmate_picture_tab.isSelected = false
+        halmate_board_tab.isSelected = false
+        halmate_group_tab.isSelected = false
+        halmate_message_icon.visibility = View.INVISIBLE
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        halmate_schedule_tab.isSelected = true
+    }
 
 }
