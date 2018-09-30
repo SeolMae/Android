@@ -1,5 +1,6 @@
 package com.team.halae
 
+import android.content.Intent
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.media.Image
@@ -24,7 +25,7 @@ import java.security.NoSuchAlgorithmException
 
 class MainActivity : AppCompatActivity() {
 
-    var token: String = " "
+    var token: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkeCI6OTI3MzA0MjIyLCJpYXQiOjE1MzgyOTY3NDMsImV4cCI6MTU0MDg4ODc0M30.KuDpOGzvy4NzQJjUJ0InjdSIdWYmhn10CfCS1QLLBzA"
     private var networkService: NetworkService? = null
     private var requestManager: RequestManager? = null
 
@@ -32,11 +33,22 @@ class MainActivity : AppCompatActivity() {
     private var adapter : HalAdapter? = null
     private var myHalDatas : ArrayList<UsrHalData>? = null
 
+    var board_idx : Int? = null
+    var board_idx2 : Int? = null
+
+    var hal_idx : Int? = null
+    var hal_idx2 : Int? = null
+
+    var don_idx : Int? = null
+    var don_idx2 : Int? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        token = getIntent().getStringExtra("token")
+        networkService = ApplicationController.instance!!.networkService
+
+        //token = getIntent().getStringExtra("token")
 
         val getUsrHalResponse = networkService!!.getUsrHalList(token)
         getUsrHalResponse.enqueue(object : Callback<UsrHalListResponse> {
@@ -49,6 +61,11 @@ class MainActivity : AppCompatActivity() {
                         adapter = HalAdapter(response.body().data, requestManager!!)
                         myHalDatas = response.body().data
                         myHalLists!!.adapter = adapter
+                        main_dontHal.setVisibility(TextView.GONE)
+                    }
+                    else if(response!!.body().message == "user don't have halmmate"){
+                        main_HalMate.setVisibility(RecyclerView.GONE)
+
                     }
                 }
             }
@@ -69,6 +86,7 @@ class MainActivity : AppCompatActivity() {
                         DoTotalMoney1.setText(response!!.body().data[0].don_now.toString() + "원")
                         DoPercent1.setText(response!!.body().data[0].don_percent.toString()+"%")
                         DoStatus1.setProgress(response!!.body().data[0].don_percent)
+                        don_idx = response!!.body().data[0].don_idx
 
 
                         requestManager!!.load(response!!.body().data[1].don_img).into(DoWithPic1)
@@ -77,6 +95,7 @@ class MainActivity : AppCompatActivity() {
                         DoTotalMoney2.setText(response!!.body().data[1].don_now.toString() + "원")
                         DoPercent2.setText(response!!.body().data[1].don_percent.toString()+"%")
                         DoStatus2.setProgress(response!!.body().data[1].don_percent)
+                        don_idx2 = response!!.body().data[1].don_idx
 
                     }
                 }
@@ -95,9 +114,11 @@ class MainActivity : AppCompatActivity() {
                     if(response!!.body().message == "Successfully get recommend_donate"){
                         requestManager!!.load(response!!.body().data[0].board_img).into(recommedPic1)
                         recommedTitle1.setText(response!!.body().data[0].board_title)
+                        board_idx=response!!.body().data[0].board_idx
 
                         requestManager!!.load(response!!.body().data[0].board_img).into(recommedPic2)
                         recommedTitle2.setText(response!!.body().data[0].board_title)
+                        board_idx=response!!.body().data[1].board_idx
                     }
                 }
             }
@@ -117,17 +138,57 @@ class MainActivity : AppCompatActivity() {
                         HalAge.setText(response!!.body().data[0].hal_name + " 할머니, " + response!!.body().data[0].hal_age.toString()+"세")
                         HalAdd.setText(response!!.body().data[0].hal_add)
                         HalHob.setText("#" + response!!.body().data[0].inter_list.interest[0] + " #" + response!!.body().data[0].inter_list.interest[1])
+                        hal_idx = response!!.body().data[0].hal_idx
 
                         requestManager!!.load(response!!.body().data[1].hal_img).into(recoHalImg2)
                         HalAge2.setText(response!!.body().data[1].hal_name + " 할머니, " + response!!.body().data[0].hal_age.toString()+"세")
                         HalAdd2.setText(response!!.body().data[1].hal_add)
                         HalHob2.setText("#" + response!!.body().data[1].inter_list.interest[0] + " #" + response!!.body().data[1].inter_list.interest[1])
+                        hal_idx2 = response!!.body().data[0].hal_idx
                     }
                 }
             }
 
         })
 
+        recommedPic1.setOnClickListener{
+            var intent = Intent(this, BoardDetailActivity::class.java)
+            intent.putExtra("board_idx",board_idx)
+            startActivity(intent)
+        }
+        recommedPic2.setOnClickListener{
+            var intent = Intent(this, BoardDetailActivity::class.java)
+            intent.putExtra("board_idx",board_idx2)
+            startActivity(intent)
+        }
+
+        /* 할머니 페이지로 설정!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        main_DoRec1.setOnClickListener{
+            var intent = Intent(this, BoardDetailActivity::class.java)
+            intent.putExtra("hal_idx",board_idx)
+            startActivity(intent)
+        }
+
+        main_DoRec2.setOnClickListener{
+            var intent = Intent(this, BoardDetailActivity::class.java)
+            intent.putExtra("hal_idx",board_idx2)
+            startActivity(intent)
+        }
+        */
+
+        /* 할머니 기부페이지로 설정!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        main_HalDoRec1.setOnClickListener{
+            var intent = Intent(this, BoardDetailActivity::class.java)
+            intent.putExtra("hal_idx",board_idx2)
+            startActivity(intent)
+        }
+
+        main_HalDoRec2.setOnClickListener{
+            var intent = Intent(this, BoardDetailActivity::class.java)
+            intent.putExtra("hal_idx",board_idx2)
+            startActivity(intent)
+        }
+        */
     }
 }
 

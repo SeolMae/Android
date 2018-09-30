@@ -18,13 +18,15 @@ class BoardDetailActivity : AppCompatActivity() {
 
     var getImage : CircleImageView? = null
 
-    var board_idx: String = " "
+    var board_idx: Int = null!!
     private var networkService: NetworkService? = null
     private var requestManager: RequestManager? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_board_detail)
+
+        board_idx = getIntent().getIntExtra("board_idx", board_idx!!)
 
         networkService = ApplicationController.instance!!.networkService
         requestManager = Glide.with(this)
