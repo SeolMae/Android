@@ -14,16 +14,44 @@
     <!--</com.prolificinteractive.materialcalendarview.MaterialCalendarView>-->
 
 
-    <CalendarView
+    <!--<CalendarView-->
+        <!--android:id="@+id/calendarView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minDate="01/01/2018"-->
+        <!--android:maxDate="12/31/2018"-->
+        <!--android:clickable="true"-->
+        <!--android:focusable="true"-->
+
+        <!--&gt;-->
+
+    <!--</CalendarView>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/calendar_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_centerInParent="true"
+            android:textColor="#606060"
+            android:text="2018년 9월"
+            />
+    </RelativeLayout>
+
+    <jp.co.recruit_mp.android.lightcalendarview.LightCalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minDate="01/01/2018"
-        android:maxDate="12/31/2018"
-        android:clickable="true"
-        android:focusable="true"
+        app:lcv_weekDayTextSize="12dp"
+        app:lcv_dayTextSize="12dp"
+        app:lcv_textColor="@drawable/calendar_day_text"
+        app:lcv_selectionColor="@drawable/calendar_selection"
+        app:lcv_accentColor="@drawable/calendar_accent"
+        app:lcv_firstDayOfWeek="0"/>
 
-        >
-
-    </CalendarView>
 </LinearLayout>

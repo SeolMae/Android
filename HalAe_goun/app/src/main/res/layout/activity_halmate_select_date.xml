@@ -49,13 +49,25 @@
 
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/schedule_select_add"
+
+        <RelativeLayout
             android:layout_width="46dp"
             android:layout_height="46dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            />
+            android:background="@drawable/schedule_add_btn">
+
+            <ImageView
+                android:src="@drawable/halmate_schedule_add"
+                android:id="@+id/schedule_select_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                />
+
+
+        </RelativeLayout>
+
 
 
     </RelativeLayout>

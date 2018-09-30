@@ -250,7 +250,7 @@
             <ImageView
                 android:layout_width="42.26dp"
                 android:layout_height="42.27dp"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="7dp"
                 android:src="@drawable/halmate_group_crown"/>
 
         </RelativeLayout>

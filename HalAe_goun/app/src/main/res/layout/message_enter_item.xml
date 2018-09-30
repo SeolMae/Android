@@ -6,6 +6,7 @@
     android:paddingTop="10dp">
 
     <TextView
+        android:id="@+id/enter_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="최윤호 님이 그룹에 참가하였습니다. 인삿말을 보내보세요."

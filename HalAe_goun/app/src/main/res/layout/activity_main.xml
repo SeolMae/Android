@@ -27,6 +27,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/tab_home"
+                android:layout_centerInParent="true"/>
+
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -34,6 +41,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/tab_search"
+                android:layout_centerInParent="true"/>
 
         </RelativeLayout>
 
@@ -43,6 +56,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/tab_board"
+                android:layout_centerInParent="true"/>
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -51,6 +70,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/tab_donate"
+                android:layout_centerInParent="true"/>
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -58,6 +83,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/tab_mypage"
+                android:layout_centerInParent="true"/>
 
         </RelativeLayout>
 

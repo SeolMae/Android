@@ -30,6 +30,7 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/schedule_add_confrm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -61,6 +62,7 @@
             android:src="@drawable/halmate_schedule_person"/>
 
         <EditText
+            android:id="@+id/schedule_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16dp"
@@ -126,7 +128,7 @@
                 android:textColor="#606060"/>
 
             //timePicker
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/volunteer_start_date"

@@ -41,7 +41,7 @@ class HalmateFragment : Fragment(), View.OnClickListener {
             }
 
             halmate_message_icon->{
-                startActivity(Intent(context, HalmateScheduleSelectActivity::class.java))
+                startActivity(Intent(context, HalmateMessageActivity::class.java))
             }
         }
     }
@@ -50,6 +50,7 @@ class HalmateFragment : Fragment(), View.OnClickListener {
         val v = inflater.inflate(R.layout.fragment_halmate, container, false)
 
         v.halmate_frame
+        v.halmate_message_icon.setOnClickListener(this)
         v.halmate_schedule_tab.setOnClickListener(this)
         v.halmate_picture_tab.setOnClickListener(this)
         v.halmate_board_tab.setOnClickListener(this)
