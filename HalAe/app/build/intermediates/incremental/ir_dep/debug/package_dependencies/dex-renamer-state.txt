@@ -1,0 +1,4 @@
+#Sun Sep 30 19:58:31 KST 2018
+base.0=/Users/shin-yeji/Desktop/app/build/intermediates/transforms/dexMerger/debug/11
+path.0=classes.dex
+renamed.0=classes.dex
