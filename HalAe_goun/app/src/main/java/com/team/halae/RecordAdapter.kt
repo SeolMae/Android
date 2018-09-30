@@ -7,7 +7,7 @@ import android.view.ViewGroup
 
 class RecordAdapter (var searchRecord : ArrayList<RecordItem>) : RecyclerView.Adapter<RecordViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecordViewHolder {
-        val mainView : View = LayoutInflater.from(parent.context).inflate(R.layout.halmate_searched_word, parent, false)
+        val mainView : View = LayoutInflater.from(parent.context).inflate(R.layout.search_magnifying_item, parent, false)
         return RecordViewHolder(mainView)
     }
 

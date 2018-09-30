@@ -11,4 +11,6 @@ class SearchViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView)  {
     var halmateAge : TextView = itemView!!.findViewById(R.id.halmate_search_age) as TextView
     var halmateAddress : TextView = itemView!!.findViewById(R.id.halmate_search_address) as TextView
     var hamateInterest : TextView = itemView!!.findViewById(R.id.halmate_search_interest) as TextView
+
+
 }

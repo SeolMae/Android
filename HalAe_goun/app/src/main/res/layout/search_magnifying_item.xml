@@ -6,6 +6,7 @@
     >
     
     <ImageView
+        android:id="@+id/magnifying_img"
         android:layout_width="12dp"
         android:layout_height="12dp"
         android:src="@drawable/search_search_searchbottom"
