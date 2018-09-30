@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/474ecbd1cad21674245e74e28aefcd5a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/cbe31f340cd5d14a7d6fdaec784e4ece/AndroidManifest.xml:17:1-22:12
@@ -41,20 +41,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shin-yeji/.gradl
 MERGED from [android.arch.core:runtime:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6cfc3cb815e7bc7e3c1fda5718191c38/AndroidManifest.xml:17:1-22:12
 MERGED from [com.kakao.sdk:network:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/network-1.13.0.aar/b97b44bbb5868970252aa40279984bf2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.kakao.sdk:util:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/util-1.13.0.aar/a56987b32158003e0aa9f317a436205e/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-41:12
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:11-69
@@ -63,7 +63,7 @@ ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:7:5-39:19
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:7:5-40:19
 MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:22:5-20
 MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/b7d05d320fad23705fcedc864b1c2582/AndroidManifest.xml:9:5-20
@@ -92,10 +92,10 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shin-yeji/.g
 		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:14:9-47
 	android:name
 		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:8:9-46
-activity#com.team.halae.MainActivity
+activity#com.team.halae.SplashActivity
 ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:15:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
@@ -106,60 +106,64 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.team.halae.MainActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:22:9-49
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:22:19-47
 activity#com.team.halae.MypageActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:22:9-52
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:23:9-52
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:22:19-49
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:23:19-49
 activity#com.team.halae.VolunteerTimeActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:23:9-59
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:24:9-59
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:23:19-56
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:24:19-56
 activity#com.team.halae.SettingActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:24:9-53
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:25:9-53
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:24:19-50
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:25:19-50
 activity#com.team.halae.MyDonateActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:25:9-54
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:26:9-54
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:25:19-51
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:26:19-51
 activity#com.team.halae.MyWorkActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:26:9-52
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:27:9-52
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:26:19-49
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:27:19-49
 activity#com.team.halae.BoardActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:27:9-51
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:28:9-51
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:27:19-48
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:28:19-48
 activity#com.team.halae.BoardWriteActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:28:9-56
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:29:9-56
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:28:19-53
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:29:19-53
 activity#com.team.halae.BoardCommentActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:29:9-58
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:30:9-58
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:29:19-55
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:30:19-55
 activity#com.team.halae.BoardDetailActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:30:9-57
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:31:9-57
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:30:19-54
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:31:19-54
 activity#com.team.halae.LoginActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:31:9-51
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:32:9-51
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:31:19-48
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:32:19-48
 activity#com.team.halae.Login1Activity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:32:9-52
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:33:9-52
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:32:19-49
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:33:19-49
 meta-data#com.kakao.sdk.AppKey
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:34:9-36:53
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:35:9-37:53
 	android:value
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:36:13-50
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:37:13-50
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:35:13-48
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:36:13-48
 activity#com.team.halae.KakaoSignupActivity
-ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:38:9-66
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:39:9-66
 	android:name
-		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:38:19-54
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:39:19-54
 uses-sdk
 INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml

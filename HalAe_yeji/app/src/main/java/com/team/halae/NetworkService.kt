@@ -28,7 +28,7 @@ interface NetworkService {
 
     @GET("board/:(보드 게시물 인덱스)")
     fun getBoardDetail(
-         @Header("board_idx") board_idx : String
+         @Header("board_idx") board_idx : Int
     ) : retrofit2.Call<BoardDetailResponse>
 
     @GET("board/comment/:(게시물 인덱스)")

@@ -30,6 +30,8 @@ class KakaoSignupActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestMe()
+
+        networkService = ApplicationController.instance!!.networkService
     }
 
     /**
@@ -67,6 +69,7 @@ class KakaoSignupActivity : Activity() {
 
 
                 Log.v("kakaokakao",Session.getCurrentSession().accessToken)
+
                 val postLogin = networkService!!.postLogin(LoginPost(Session.getCurrentSession().accessToken))
                 postLogin.enqueue(object : Callback<LoginResponse> {
                     override fun onFailure(call: Call<LoginResponse>?, t: Throwable?) {
@@ -81,8 +84,6 @@ class KakaoSignupActivity : Activity() {
                     }
 
                 })
-
-
 
                 val kakaoID = userProfile.id.toString() // userProfile에서 ID값을 가져옴
                 val kakaoNickname = userProfile.nickname     // Nickname 값을 가져옴

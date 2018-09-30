@@ -21,13 +21,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
-        <activity android:name="com.team.halae.MainActivity" >
+        <activity android:name="com.team.halae.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.team.halae.MainActivity" />
         <activity android:name="com.team.halae.MypageActivity" />
         <activity android:name="com.team.halae.VolunteerTimeActivity" />
         <activity android:name="com.team.halae.SettingActivity" />

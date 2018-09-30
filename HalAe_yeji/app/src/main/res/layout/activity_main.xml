@@ -51,6 +51,15 @@
                 android:textSize="17dp"
                 android:text="우리 할메이트"/>
 
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textColor="#606060"
+                android:layout_gravity="center"
+                android:text="할머니를 추가해주세요!"
+                android:id="@+id/main_dontHal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/main_HalMate"
                 android:orientation="horizontal"
@@ -95,14 +104,14 @@
                 <ImageView
                     android:id="@+id/recommedPic1"
                     android:layout_marginTop="60dp"
-                    android:layout_marginLeft="22dp"
+                    android:layout_marginLeft="32dp"
                     android:layout_marginRight="20dp"
                     android:layout_width="160dp"
                     android:layout_height="100dp" />
                 <TextView
                     android:id="@+id/recommedTitle1"
                     android:textColor="#606060"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="35dp"
                     android:layout_below="@+id/recommedPic1"
                     android:textSize="13dp"
                     android:text="어르신들 스마트폰 활용 교육"
@@ -111,13 +120,13 @@
                 <ImageView
                     android:id="@+id/recommedPic2"
                     android:layout_marginTop="60dp"
-                    android:layout_marginLeft="202dp"
+                    android:layout_marginLeft="212dp"
                     android:layout_width="160dp"
                     android:layout_height="100dp" />
                 <TextView
                     android:id="@+id/recommedTitle2"
                     android:textColor="#606060"
-                    android:layout_marginLeft="210dp"
+                    android:layout_marginLeft="220dp"
                     android:layout_below="@+id/recommedPic1"
                     android:textSize="13dp"
                     android:text="할머니 염색을 해드렸어요!"
@@ -385,7 +394,7 @@
                     android:textSize="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="박선 할머니" />
+                    android:text="박선희 할머니" />
 
                 <ProgressBar
                     android:progress="50"

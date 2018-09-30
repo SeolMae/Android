@@ -9,9 +9,9 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class ApplicationController : Application() {
-    var networkService: NetworkService? = null
+    lateinit var networkService: NetworkService
         private set
-    val baseUrl = "http://13.209.226.132"
+    private val baseUrl = "http://52.78.137.158:3000"
     var appContext: Context? = null
 
     override fun onCreate() {
@@ -22,7 +22,6 @@ class ApplicationController : Application() {
         globalApplicationContext = this
         KakaoSDK.init(KakaoSDKAdapter())
         buildNetwork()
-
     }
 
 
@@ -40,7 +39,7 @@ class ApplicationController : Application() {
     }
 
     companion object {
-        var instance: ApplicationController? = null
+        lateinit var instance: ApplicationController
         @Volatile
         var globalApplicationContext: ApplicationController? = null
             private set
