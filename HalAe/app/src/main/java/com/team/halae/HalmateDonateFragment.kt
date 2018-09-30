@@ -15,6 +15,7 @@ import android.widget.Spinner
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
 
+//깃 푸시 테스트 해보쟝 제발 돼라 제발
 class HalmateDonateFragment() : Fragment(), AdapterView.OnItemSelectedListener, View.OnClickListener {
 
     lateinit var donateRecyclerView: RecyclerView
