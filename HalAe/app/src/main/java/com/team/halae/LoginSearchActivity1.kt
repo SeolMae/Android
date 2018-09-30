@@ -21,7 +21,11 @@ class LoginSearchActivity1: AppCompatActivity(), View.OnClickListener{
     lateinit var addressItem: ArrayList<String>
     lateinit var addressAdapter : AddressAdapter
     override fun onClick(v: View?) {
-
+        when(v){
+            login_search1_back->{
+                onBackPressed()
+            }
+        }
 
     }
 

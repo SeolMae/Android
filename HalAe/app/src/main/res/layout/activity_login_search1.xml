@@ -9,6 +9,7 @@
         android:layout_height="50dp">
         
         <ImageView
+            android:id="@+id/login_search1_back"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_centerVertical="true"
