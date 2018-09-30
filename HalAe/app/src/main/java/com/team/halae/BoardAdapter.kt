@@ -14,7 +14,7 @@ class BoardAdapter(var boardItems : ArrayList<BoardItem>) : RecyclerView.Adapter
     override fun getItemCount(): Int = boardItems.size
 
     override fun onBindViewHolder(holder: BoardViewHolder, position: Int) {
-        holder.boardImage.setImageResource(boardItems[position].image)
+        holder.boardImage.setImageResource(boardItems[position].Wimage)
         holder.boardTitle.text = boardItems[position].title
         holder.boardDate.text = boardItems[position].date
     }

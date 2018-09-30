@@ -1,6 +1,4 @@
 package com.team.halae
-
-<<<<<<< HEAD
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -18,13 +16,6 @@ interface NetworkService {
             @Path("align") align : String
     ) : Call<DonateListResponse>
 
-=======
-import android.telecom.Call
-import retrofit2.http.*
-
-
-interface NetworkService {
-
     @POST("auth")
     fun postLogin(
             @Body LoginPost : LoginPost
@@ -32,7 +23,7 @@ interface NetworkService {
 
     @GET("usr/volunteer")
     fun getUserVoltime(
-        @Header("token") token : String
+            @Header("token") token : String
     ) : retrofit2.Call<UserVoltimeResponse>
 
     @GET("usr/donate")
@@ -47,7 +38,7 @@ interface NetworkService {
 
     @GET("board/:(보드 게시물 인덱스)")
     fun getBoardDetail(
-         @Header("board_idx") board_idx : Int
+            @Header("board_idx") board_idx : Int
     ) : retrofit2.Call<BoardDetailResponse>
 
     @GET("board/comment/:(게시물 인덱스)")
@@ -91,5 +82,4 @@ interface NetworkService {
             @Header("token") token: String,
             @Body boardAddPost: boardAddPost
     ) : retrofit2.Call<postBoardAddResponse>
->>>>>>> b58de814f8318a55ca696504d5510ad47b4f5104
 }
