@@ -15,12 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="50dp">
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
-                android:src="@drawable/login_back"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,6 +63,7 @@
 
 
                 <EditText
+                    android:id="@+id/login_address_detail"
                     android:layout_width="300dp"
                     android:layout_height="40dp"
                     android:layout_centerVertical="true"
