@@ -1,0 +1,272 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/474ecbd1cad21674245e74e28aefcd5a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/cbe31f340cd5d14a7d6fdaec784e4ece/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/b7d05d320fad23705fcedc864b1c2582/AndroidManifest.xml:2:1-11:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.0.aar/38ff64a3378a019e744c0b7d93e47270/AndroidManifest.xml:2:1-12:12
+MERGED from [com.kakao.sdk:usermgmt:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/usermgmt-1.13.0.aar/9ef62bfdbab540b376b34c5b79c6bd6d/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38f30767fad7cd8d4fdb2f61e1bac41/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/699b79de82a6d192af4480fba8d0166b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/9ba35b0514c4c41f6c19dd1548305c22/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e7f18c9db17f642230ade5dca0862c43/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3bef261c705e16ecda0a796c49df8660/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/0b00898af68a1f640345ceae2f6439ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/361887005092bb5d237efc4b34029855/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ee7559671e2727e28f91ba7a4fca9670/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e1a4956c591e265cef6704b3ec1104c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c19d5b7d54ce8c72e88b14515c45a436/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a4c0e66632ecc40c47301697cfadbf34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c8c96b635e0db847e6f68a936e18007b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/af78a706b4bb0024c640526877ce6632/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/590c1271a7952e66d4a73d911fa91aa6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d59cbb3bf8643c0a7fc3846451217325/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/73d64974dcd9f49920c816d50310964f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/334faeec85e345b9fadec326346c59a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3eb9798fa39b61942120bd1ceaf8cf13/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8392f8f0a65849f3a97cf6635958e990/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/cd4e26a5d5d70cb2a8d211c3f271acd7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c002cda9c608a44f008767a9010d240d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0970917aa5a898cf71577db33a3e992f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/543f4d36b0771b6a7e0898aca471655a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ba9cc965e12d8caec12a03cfac2c0880/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7bbf8686b9365b3e2881ee235e92633f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8a2b9d21797485b56a2cb1100f8a66a8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ecf3101be3887be0ce6eef4735288078/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6cfc3cb815e7bc7e3c1fda5718191c38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.kakao.sdk:network:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/network-1.13.0.aar/b97b44bbb5868970252aa40279984bf2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:util:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/util-1.13.0.aar/a56987b32158003e0aa9f317a436205e/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:7:5-40:19
+MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/b7d05d320fad23705fcedc864b1c2582/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/b7d05d320fad23705fcedc864b1c2582/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38f30767fad7cd8d4fdb2f61e1bac41/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38f30767fad7cd8d4fdb2f61e1bac41/AndroidManifest.xml:9:5-20
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:11:5-24:19
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:11:5-24:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/73d64974dcd9f49920c816d50310964f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/73d64974dcd9f49920c816d50310964f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3eb9798fa39b61942120bd1ceaf8cf13/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3eb9798fa39b61942120bd1ceaf8cf13/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/73d64974dcd9f49920c816d50310964f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:14:9-47
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:8:9-46
+activity#com.team.halae.SplashActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:15:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.team.halae.MainActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:22:9-49
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:22:19-47
+activity#com.team.halae.MypageActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:23:9-52
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:23:19-49
+activity#com.team.halae.VolunteerTimeActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:24:9-59
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:24:19-56
+activity#com.team.halae.SettingActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:25:9-53
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:25:19-50
+activity#com.team.halae.MyDonateActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:26:9-54
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:26:19-51
+activity#com.team.halae.MyWorkActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:27:9-52
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:27:19-49
+activity#com.team.halae.BoardActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:28:9-51
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:28:19-48
+activity#com.team.halae.BoardWriteActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:29:9-56
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:29:19-53
+activity#com.team.halae.BoardCommentActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:30:9-58
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:30:19-55
+activity#com.team.halae.BoardDetailActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:31:9-57
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:31:19-54
+activity#com.team.halae.LoginActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:32:9-51
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:32:19-48
+activity#com.team.halae.Login1Activity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:33:9-52
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:33:19-49
+meta-data#com.kakao.sdk.AppKey
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:35:9-37:53
+	android:value
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:37:13-50
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:36:13-48
+activity#com.team.halae.KakaoSignupActivity
+ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:39:9-66
+	android:name
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml:39:19-54
+uses-sdk
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9918bfdcc89eaa3323070c0119cdff82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/474ecbd1cad21674245e74e28aefcd5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/474ecbd1cad21674245e74e28aefcd5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/cbe31f340cd5d14a7d6fdaec784e4ece/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/cbe31f340cd5d14a7d6fdaec784e4ece/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/b7d05d320fad23705fcedc864b1c2582/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/b7d05d320fad23705fcedc864b1c2582/AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.0.aar/38ff64a3378a019e744c0b7d93e47270/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.0.aar/38ff64a3378a019e744c0b7d93e47270/AndroidManifest.xml:8:5-10:41
+MERGED from [com.kakao.sdk:usermgmt:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/usermgmt-1.13.0.aar/9ef62bfdbab540b376b34c5b79c6bd6d/AndroidManifest.xml:10:5-12:41
+MERGED from [com.kakao.sdk:usermgmt:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/usermgmt-1.13.0.aar/9ef62bfdbab540b376b34c5b79c6bd6d/AndroidManifest.xml:10:5-12:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38f30767fad7cd8d4fdb2f61e1bac41/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38f30767fad7cd8d4fdb2f61e1bac41/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/699b79de82a6d192af4480fba8d0166b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/699b79de82a6d192af4480fba8d0166b/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/9ba35b0514c4c41f6c19dd1548305c22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/9ba35b0514c4c41f6c19dd1548305c22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e7f18c9db17f642230ade5dca0862c43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e7f18c9db17f642230ade5dca0862c43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3bef261c705e16ecda0a796c49df8660/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3bef261c705e16ecda0a796c49df8660/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/0b00898af68a1f640345ceae2f6439ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/0b00898af68a1f640345ceae2f6439ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/361887005092bb5d237efc4b34029855/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/361887005092bb5d237efc4b34029855/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ee7559671e2727e28f91ba7a4fca9670/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ee7559671e2727e28f91ba7a4fca9670/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e1a4956c591e265cef6704b3ec1104c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e1a4956c591e265cef6704b3ec1104c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c19d5b7d54ce8c72e88b14515c45a436/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c19d5b7d54ce8c72e88b14515c45a436/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a4c0e66632ecc40c47301697cfadbf34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a4c0e66632ecc40c47301697cfadbf34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c8c96b635e0db847e6f68a936e18007b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c8c96b635e0db847e6f68a936e18007b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/af78a706b4bb0024c640526877ce6632/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/af78a706b4bb0024c640526877ce6632/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/590c1271a7952e66d4a73d911fa91aa6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/590c1271a7952e66d4a73d911fa91aa6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d59cbb3bf8643c0a7fc3846451217325/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d59cbb3bf8643c0a7fc3846451217325/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/73d64974dcd9f49920c816d50310964f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/73d64974dcd9f49920c816d50310964f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/334faeec85e345b9fadec326346c59a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/334faeec85e345b9fadec326346c59a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3eb9798fa39b61942120bd1ceaf8cf13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3eb9798fa39b61942120bd1ceaf8cf13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8392f8f0a65849f3a97cf6635958e990/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8392f8f0a65849f3a97cf6635958e990/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/cd4e26a5d5d70cb2a8d211c3f271acd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/cd4e26a5d5d70cb2a8d211c3f271acd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c002cda9c608a44f008767a9010d240d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c002cda9c608a44f008767a9010d240d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0970917aa5a898cf71577db33a3e992f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0970917aa5a898cf71577db33a3e992f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/543f4d36b0771b6a7e0898aca471655a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/543f4d36b0771b6a7e0898aca471655a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ba9cc965e12d8caec12a03cfac2c0880/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ba9cc965e12d8caec12a03cfac2c0880/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7bbf8686b9365b3e2881ee235e92633f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7bbf8686b9365b3e2881ee235e92633f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8a2b9d21797485b56a2cb1100f8a66a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8a2b9d21797485b56a2cb1100f8a66a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ecf3101be3887be0ce6eef4735288078/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ecf3101be3887be0ce6eef4735288078/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6cfc3cb815e7bc7e3c1fda5718191c38/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6cfc3cb815e7bc7e3c1fda5718191c38/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:network:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/network-1.13.0.aar/b97b44bbb5868970252aa40279984bf2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:network:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/network-1.13.0.aar/b97b44bbb5868970252aa40279984bf2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:util:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/util-1.13.0.aar/a56987b32158003e0aa9f317a436205e/AndroidManifest.xml:10:5-12:41
+MERGED from [com.kakao.sdk:util:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/util-1.13.0.aar/a56987b32158003e0aa9f317a436205e/AndroidManifest.xml:10:5-12:41
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shin-yeji/Desktop/app/src/main/AndroidManifest.xml
+activity#com.kakao.auth.authorization.authcode.KakaoWebViewActivity
+ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:12:9-23:20
+	android:label
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:15:13-59
+	android:launchMode
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:16:13-43
+	android:windowSoftInputMode
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:17:13-55
+	android:configChanges
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:14:13-59
+	android:name
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:13:13-86
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:18:13-22:29
+category#android.intent.category.DEFAULT
+ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from [com.kakao.sdk:auth:1.13.0] /Users/shin-yeji/.gradle/caches/transforms-1/files-1.1/auth-1.13.0.aar/cafcd0272f0b50e9f2e938f466ffef9c/AndroidManifest.xml:21:27-73
