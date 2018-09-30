@@ -52,10 +52,7 @@ class HalmateSearchFragment() : Fragment(), AdapterView.OnItemSelectedListener, 
         searchAdapter!!.setOnItemClickListner(this)
 
 
-
-
         //-----------------------------디폴트 리스트 받아오기----------------------------------
-
 /*
         searchResult.add(SearchItem(R.drawable.sample, "박태환 할아버지", 78,"서울시 중구 필동", "#사진#독서"))
         searchResult.add(SearchItem(R.drawable.sample, "최서정 할머니", 78,"서울시 성북구 길음동", "#사진#독서"))
@@ -82,12 +79,6 @@ class HalmateSearchFragment() : Fragment(), AdapterView.OnItemSelectedListener, 
         var interestAdapter = ArrayAdapter<String>(context, android.R.layout.simple_spinner_item, resources.getStringArray(R.array.관심분야))
         interestSpinner!!.adapter = interestAdapter
         interestSpinner!!.setSelection(0)
-/*
-        if(locationSpinner!!.selectedItem == "위치"
-                && genderSpinner!!.selectedItem =="성별"
-                && interestSpinner!!.selectedItem == "관심분야"){
-            filteringrequestbody = FilteringRequestBody(null.toString(),null, null.toString())
-        }*/
 
         locationSpinner!!.setOnItemSelectedListener(this)
         genderSpinner!!.setOnItemSelectedListener(this)
@@ -117,7 +108,8 @@ class HalmateSearchFragment() : Fragment(), AdapterView.OnItemSelectedListener, 
                 Log.v("sylee", "location spinner test")
                 Toast.makeText(context, "location",Toast.LENGTH_LONG).show()
                 location = locationSpinner!!.selectedItem.toString()
-                filteringrequestbody!!.hal_address = location
+                if(location == "위치") location = ""
+                filteringrequestbody!!.hal_address = null.toString()
             }
             genderSpinner -> {
                 Log.v("sylee", "gender spinner test")
@@ -128,8 +120,10 @@ class HalmateSearchFragment() : Fragment(), AdapterView.OnItemSelectedListener, 
                 if(gender == "남"){
                     filteringrequestbody!!.hal_gender = 0
                 }
-                else if(gender == "여"){
+                else if(gender == "여") {
                     filteringrequestbody!!.hal_gender = 1
+                }else if(gender == "성별"){
+                    filteringrequestbody!!.hal_gender = null
                 }
 
             }
@@ -138,27 +132,23 @@ class HalmateSearchFragment() : Fragment(), AdapterView.OnItemSelectedListener, 
                 Toast.makeText(context, "interest" + p2, Toast.LENGTH_LONG).show()
                 interest = interestSpinner!!.selectedItem.toString()
                 Log.v("sylee", interest)
-                filteringrequestbody!!.hal_interest = interest
+                if(interest == "관심분야") interest = ""
+                filteringrequestbody!!.hal_interest = null.toString()
             }
         }
 
-        if(location == "위치") location = ""
-        if(interest == "관심분야") interest = ""
-        if(gender == "성별") intgender = 2
 
 
         var posthalmatefilering = networkService!!.postHalmateFitering(filteringrequestbody!!)
         posthalmatefilering.enqueue(object : retrofit2.Callback<FilteringPostResponse> {
             override fun onResponse(call: Call<FilteringPostResponse>?, response: Response<FilteringPostResponse>?) {
                 Log.v("sylee",response!!.message().toString())
-
                 if(response!!.isSuccessful){
-                    Log.v("sy","halmate search isSuccessful")
+                    Log.v("sylee","halmate search isSuccessful")
 
-                    if(response.body().status.equals(201)){
-                        Log.v("sy","status code 201")
-
-
+                    if(response.body().message.equals("get halmate schedule information Success")){
+                        Log.v("sylee","status code 201")
+                        Log.v("sylee", response.body().result[0].toString())
                         //for(i in)
 
 

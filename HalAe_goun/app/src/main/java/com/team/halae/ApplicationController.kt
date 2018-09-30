@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class ApplicationController : Application() {
     var networkService : NetworkService? = null
         private set
-    val baseUrl = "http://13.209.226.132"
+    val baseUrl = "http://52.78.137.158:3000"
     var appContext: Context? = null
 
     override fun onCreate() {

@@ -1,9 +1,10 @@
 package com.team.halae
 
 import java.util.*
+import kotlin.collections.ArrayList
+
 
 data class DonateListResponse(
-        var status: Int,
         var message : String,
-        var result : Objects
+        var result : ArrayList<DonateResponseResultItem>
 )

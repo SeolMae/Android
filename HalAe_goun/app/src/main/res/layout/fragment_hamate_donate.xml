@@ -31,17 +31,18 @@
         android:background="@color/titlebarshadow" />
 
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="340dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="262dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal">
 
         <Spinner
             android:id="@+id/donate_align_spinner"
-            android:layout_width="100dp"
+            android:layout_width="125dp"
             android:layout_height="23dp"
             android:spinnerMode="dropdown"
-            android:entries="@array/정렬" />
+            android:entries="@array/정렬"
+            android:layout_alignParentRight="true"/>
 
 
     </RelativeLayout>

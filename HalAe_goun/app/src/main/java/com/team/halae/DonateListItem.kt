@@ -5,6 +5,7 @@ data class DonateListItem(
         var donatetitle : String,
         var donatehalmatename : String,
         var donategoalmoney : String,
+        var donatenowmoney : String,
         var donatepercent : String,
         var donateleftday : String
 

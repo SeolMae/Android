@@ -60,7 +60,9 @@
                 android:layout_marginLeft="16dp"/>
             
             <android.support.v4.widget.ContentLoadingProgressBar
-                android:id="@+id/donate_progress_bar"
+                android:id="@+id/donate_list_item_progress_bar"
+                style= "@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progress_bar_custom"
                 android:layout_width="200dp"
                 android:layout_height="9dp"
                 android:layout_marginLeft="11dp"

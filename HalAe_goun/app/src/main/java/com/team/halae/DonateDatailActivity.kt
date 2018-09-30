@@ -44,7 +44,7 @@ class DonateDatailActivity : AppCompatActivity() {
         progressbar!!.setProgress(50)
 
 
-       /* donatetitle!!.setText(intent.getStringExtra("title"))
+        donatetitle!!.setText(intent.getStringExtra("title"))
 
         var halmatenameandage : String = intent.getStringExtra("name") + "(" + intent.getStringArrayExtra("age") + ")"
         halmatename!!.setText(halmatenameandage)
@@ -56,13 +56,14 @@ class DonateDatailActivity : AppCompatActivity() {
         percentage!!.setText(percentagetemp)
 
         //현재 금액 해야 함
-        //var nowmoneytemp : String = intent.getStringExtra("now")
+        var nowmoneytemp : String = intent.getStringExtra("nowmoney") + " 원"
+        nowmoney!!.setText(nowmoneytemp)
 
         var leftdaystemp : String = "종료 " + intent.getStringExtra("leftdays") + "일 전"
         percentage!!.setText(percentagetemp)
 
         //프로그래스 바 설정
-        progressbar!!.setProgress(intent.getStringExtra("percent").toInt())*/
+        progressbar!!.setProgress(intent.getStringExtra("percent").toInt())
     }
 
 }
